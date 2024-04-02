@@ -1,4 +1,4 @@
- # 5   CREATE SOCKET FOR HTTP FOR WEBPAGE UPLOAD AND DOWNLOAD
+ # 5  . CREATE SOCKET FOR HTTP FOR WEBPAGE UPLOAD AND DOWNLOAD
 ## Aim :
 To write a PYTHON program for socket for HTTP for web page upload and download
 ## Algorithm :
