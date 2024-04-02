@@ -31,7 +31,8 @@ def upload_file(host, port, filename):
     with open(filename, 'rb') as file:
         file_data = file.read()
         content_length = len(file_data)
-        request = f"POST /upload HTTP/1.1\r\nHost: {host}\r\nContent-Length: {content_length}\r\n\r\n{file_data.decode()}"
+        request = f"POST /upload HTTP/1.1\r\nHost: {host}\r\nContent-Length:
+{content_length}\r\n\r\n{file_data.decode()}"
         response = send_request(host, port, request)
     return response
 
